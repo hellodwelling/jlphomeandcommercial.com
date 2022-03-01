@@ -490,19 +490,8 @@
                                         <div class="overflow-hidden rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
                                             <div class="relative grid gap-6 px-5 py-6 bg-white sm:gap-8 sm:p-8">
                                                 <!-- Render each sublink -->
-                                                <!-- <each loop="link in [{&#x27;title&#x27;: &#x27;Our Best Work&#x27;, &#x27;copy&#x27;: &#x27;Holiday-Lighting&#x27;, &#x27;href&#x27;: &#x27;gallery-Holiday-Lighting&#x27;}, {&#x27;title&#x27;: &#x27;Our Best Work&#x27;, &#x27;copy&#x27;: &#x27;Pressure-Washing&#x27;, &#x27;href&#x27;: &#x27;gallery-Pressure-Washing&#x27;}, {&#x27;title&#x27;: &#x27;Our Best Work&#x27;, &#x27;copy&#x27;: &#x27;Landscape-Lighting&#x27;, &#x27;href&#x27;: &#x27;gallery-Landscape-Lighting&#x27;}, {&#x27;title&#x27;: &#x27;Our Best Work&#x27;, &#x27;copy&#x27;: &#x27;Landscaping&#x27;, &#x27;href&#x27;: &#x27;gallery-Landscaping&#x27;}, {&#x27;title&#x27;: &#x27;All Photos&#x27;, &#x27;copy&#x27;: &#x27;All Photos&#x27;, &#x27;href&#x27;: &#x27;gallery-All&#x27;}]"> -->
+                                                <!-- <each loop="link in [{&#x27;title&#x27;: &#x27;Our Best Work&#x27;, &#x27;copy&#x27;: &#x27;Pressure-Washing&#x27;, &#x27;href&#x27;: &#x27;gallery-Pressure-Washing&#x27;}, {&#x27;title&#x27;: &#x27;Our Best Work&#x27;, &#x27;copy&#x27;: &#x27;Landscape-Lighting&#x27;, &#x27;href&#x27;: &#x27;gallery-Landscape-Lighting&#x27;}, {&#x27;title&#x27;: &#x27;Our Best Work&#x27;, &#x27;copy&#x27;: &#x27;Holiday-Lighting&#x27;, &#x27;href&#x27;: &#x27;gallery-Holiday-Lighting&#x27;}, {&#x27;title&#x27;: &#x27;Our Best Work&#x27;, &#x27;copy&#x27;: &#x27;Landscaping&#x27;, &#x27;href&#x27;: &#x27;gallery-Landscaping&#x27;}, {&#x27;title&#x27;: &#x27;All Photos&#x27;, &#x27;copy&#x27;: &#x27;All Photos&#x27;, &#x27;href&#x27;: &#x27;gallery-All&#x27;}]"> -->
                                                   
-                                                    <a
-                                                        href=" gallery-Holiday-Lighting "
-                                                        role="menuitem"
-                                                        class="block p-3 -m-3 transition rounded-md  focus:outline-none focus:ring-2 ring-primary ring-opacity-75 ring-offset-2 hover:bg-gray-50"
-                                                    >
-                                                        <!-- <p class="text-base font-medium text-gray-900">Our Best Work</p> -->
-                                                        <p class="mt-1 text-sm text-gray-500">Holiday-Lighting</p>
-                                                    </a>
-                                                <!-- </each> -->
-                                               <!--  -->
-                                                 
                                                     <a
                                                         href=" gallery-Pressure-Washing "
                                                         role="menuitem"
@@ -521,6 +510,17 @@
                                                     >
                                                         <!-- <p class="text-base font-medium text-gray-900">Our Best Work</p> -->
                                                         <p class="mt-1 text-sm text-gray-500">Landscape-Lighting</p>
+                                                    </a>
+                                                <!-- </each> -->
+                                               <!--  -->
+                                                 
+                                                    <a
+                                                        href=" gallery-Holiday-Lighting "
+                                                        role="menuitem"
+                                                        class="block p-3 -m-3 transition rounded-md  focus:outline-none focus:ring-2 ring-primary ring-opacity-75 ring-offset-2 hover:bg-gray-50"
+                                                    >
+                                                        <!-- <p class="text-base font-medium text-gray-900">Our Best Work</p> -->
+                                                        <p class="mt-1 text-sm text-gray-500">Holiday-Lighting</p>
                                                     </a>
                                                 <!-- </each> -->
                                                <!--  -->
@@ -604,11 +604,11 @@
                         
                         <div class="w-full sm:w-auto">
                             <a
-                            target = "_blank" href="mailto:None?subject=[company type] Job - Requesting a quote&body=Hi [[Owner Name]],%0d%0a %0d%0a  My name is [your name]. I&#x27;m writing from your website about requesting a quote for a [[company type]] job. I&#x27;ve included my information below - %0d%0a%0d%0a Quick Description: %0d%0a Address: [your address here] %0d%0a Urgency: [low, medium, high] %0d%0a Would like a quote by: [date] %0d%0a Additional notes: %0d%0a %0d%0a Thanks!"
-                            :class="{'scale-100': !scrolledFromTop, 'scale-75 translate-x-8': scrolledFromTop}"
-                            class="inline-flex items-center justify-center w-full px-5 py-3 text-base font-medium transition border-2 border-transparent rounded-md  text-primary-foreground focus:outline-none hover:bg-primary-darker sm:w-auto bg-primary focus-visible:ring-2 ring-primary ring-opacity-75 ring-offset-2"
-                            >
-                                Contact Us
+                                href="None"
+                                :class="{'scale-100': !scrolledFromTop, 'scale-75 translate-x-8': scrolledFromTop}"
+                                class="inline-flex items-center justify-center w-full px-5 py-3 text-base font-medium transition border-2 border-transparent rounded-md  text-primary-foreground focus:outline-none hover:bg-primary-darker sm:w-auto bg-primary focus-visible:ring-2 ring-primary ring-opacity-75 ring-offset-2"
+                                >
+                                Customer Portal
                             </a>
                         </div>
                         
@@ -847,12 +847,6 @@
                                         <div class="relative grid gap-6 px-5 py-2 bg-white rounded-lg">
                                             <!-- Render each sublink -->
                                             
-                                                <a href="gallery-Holiday-Lighting" role="menuitem" class="block p-3 -m-3 transition rounded-md">
-                                                    <!-- <p class="text-base font-medium text-gray-900">Our Best Work</p> -->
-                                                    <p class="mt-1 text-sm text-gray-500">Holiday-Lighting</p>
-                                                </a>
-                                            <!-- </each> -->
-                                            
                                                 <a href="gallery-Pressure-Washing" role="menuitem" class="block p-3 -m-3 transition rounded-md">
                                                     <!-- <p class="text-base font-medium text-gray-900">Our Best Work</p> -->
                                                     <p class="mt-1 text-sm text-gray-500">Pressure-Washing</p>
@@ -862,6 +856,12 @@
                                                 <a href="gallery-Landscape-Lighting" role="menuitem" class="block p-3 -m-3 transition rounded-md">
                                                     <!-- <p class="text-base font-medium text-gray-900">Our Best Work</p> -->
                                                     <p class="mt-1 text-sm text-gray-500">Landscape-Lighting</p>
+                                                </a>
+                                            <!-- </each> -->
+                                            
+                                                <a href="gallery-Holiday-Lighting" role="menuitem" class="block p-3 -m-3 transition rounded-md">
+                                                    <!-- <p class="text-base font-medium text-gray-900">Our Best Work</p> -->
+                                                    <p class="mt-1 text-sm text-gray-500">Holiday-Lighting</p>
                                                 </a>
                                             <!-- </each> -->
                                             
@@ -901,10 +901,10 @@
                     <div class="d-none p-1 bg-primary sm:bg-gray-50">
                         
                             <a
-                            target = "_blank" href="mailto:None?subject=[company type] Job - Requesting a quote&body=Hi [[Owner Name]],%0d%0a %0d%0a  My name is [your name]. I&#x27;m writing from your website about requesting a quote for a [[company type]] job. I&#x27;ve included my information below - %0d%0a%0d%0a Quick Description: %0d%0a Address: [your address here] %0d%0a Urgency: [low, medium, high] %0d%0a Would like a quote by: [date] %0d%0a Additional notes: %0d%0a %0d%0a Thanks!"
-                            class="relative block w-full px-5 py-3 font-medium text-center rounded-md  focus:outline-none focus:ring focus:z-10 text-white sm:text-secondary  hover:bg-gray-100"
-                            >
-                                Contact Us
+                                href="None"
+                                class="relative block w-full px-5 py-3 font-medium text-center rounded-md  focus:outline-none focus:ring focus:z-10 text-white sm:text-secondary  hover:bg-gray-100"
+                                >
+                                Customer Portal
                             </a>
                         
                         
@@ -959,8 +959,6 @@
             
                 
                     
-                        
-                            
                         
                             
                         
@@ -1198,6 +1196,8 @@
     </div>
 </section>
 
+                            
+                        
                             
                         
                             
@@ -1496,8 +1496,8 @@
                 <a
                   href="#"
                   class="p-1 text-base text-gray-100 rounded hover:text-gray-300 focus:ring-2 focus:outline-none ring-white ring-offset-2 ring-opacity-75"
-                  >Sun: 0:00am -
-                  0:00am</a
+                  >Sun: 8:00am -
+                  6:00pm</a
                 >
               </li>
               
@@ -1505,8 +1505,8 @@
                 <a
                   href="#"
                   class="p-1 text-base text-gray-100 rounded hover:text-gray-300 focus:ring-2 focus:outline-none ring-white ring-offset-2 ring-opacity-75"
-                  >Mon: 0:00am -
-                  0:00am</a
+                  >Mon: 8:00am -
+                  6:00pm</a
                 >
               </li>
               
@@ -1523,8 +1523,8 @@
                 <a
                   href="#"
                   class="p-1 text-base text-gray-100 rounded hover:text-gray-300 focus:ring-2 focus:outline-none ring-white ring-offset-2 ring-opacity-75"
-                  >Wed: 8:00am -
-                  6:00pm</a
+                  >Wed: 0:00am -
+                  0:00am</a
                 >
               </li>
               
@@ -1532,8 +1532,8 @@
                 <a
                   href="#"
                   class="p-1 text-base text-gray-100 rounded hover:text-gray-300 focus:ring-2 focus:outline-none ring-white ring-offset-2 ring-opacity-75"
-                  >Thu: 8:00am -
-                  6:00pm</a
+                  >Thu: 0:00am -
+                  0:00am</a
                 >
               </li>
               
@@ -1761,102 +1761,102 @@
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-136522"
-                                            name="136522"
+                                            id="contact-service-136550"
+                                            name="136550"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-136522" class="ml-3 text-sm font-medium text-gray-700">Lawn Maintenance</label>
+                                        <label for="contact-label-service-136550" class="ml-3 text-sm font-medium text-gray-700">Lawn Maintenance</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-136523"
-                                            name="136523"
+                                            id="contact-service-136551"
+                                            name="136551"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-136523" class="ml-3 text-sm font-medium text-gray-700">Landscaping</label>
+                                        <label for="contact-label-service-136551" class="ml-3 text-sm font-medium text-gray-700">Landscaping</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-136524"
-                                            name="136524"
+                                            id="contact-service-136552"
+                                            name="136552"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-136524" class="ml-3 text-sm font-medium text-gray-700">Handyman Services</label>
+                                        <label for="contact-label-service-136552" class="ml-3 text-sm font-medium text-gray-700">Handyman Services</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-136525"
-                                            name="136525"
+                                            id="contact-service-136553"
+                                            name="136553"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-136525" class="ml-3 text-sm font-medium text-gray-700">Mulching</label>
+                                        <label for="contact-label-service-136553" class="ml-3 text-sm font-medium text-gray-700">Mulching</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-136526"
-                                            name="136526"
+                                            id="contact-service-136554"
+                                            name="136554"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-136526" class="ml-3 text-sm font-medium text-gray-700">Flowerbed Makeovers</label>
+                                        <label for="contact-label-service-136554" class="ml-3 text-sm font-medium text-gray-700">Flowerbed Makeovers</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-136527"
-                                            name="136527"
+                                            id="contact-service-136555"
+                                            name="136555"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-136527" class="ml-3 text-sm font-medium text-gray-700">Yard Cleanups</label>
+                                        <label for="contact-label-service-136555" class="ml-3 text-sm font-medium text-gray-700">Yard Cleanups</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-136528"
-                                            name="136528"
+                                            id="contact-service-136556"
+                                            name="136556"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-136528" class="ml-3 text-sm font-medium text-gray-700">Tree Trimming</label>
+                                        <label for="contact-label-service-136556" class="ml-3 text-sm font-medium text-gray-700">Tree Trimming</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-136529"
-                                            name="136529"
+                                            id="contact-service-136557"
+                                            name="136557"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-136529" class="ml-3 text-sm font-medium text-gray-700">Window Cleaning</label>
+                                        <label for="contact-label-service-136557" class="ml-3 text-sm font-medium text-gray-700">Window Cleaning</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-136530"
-                                            name="136530"
+                                            id="contact-service-136558"
+                                            name="136558"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-136530" class="ml-3 text-sm font-medium text-gray-700">Powerwashing</label>
+                                        <label for="contact-label-service-136558" class="ml-3 text-sm font-medium text-gray-700">Powerwashing</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-136531"
-                                            name="136531"
+                                            id="contact-service-136559"
+                                            name="136559"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-136531" class="ml-3 text-sm font-medium text-gray-700">Landscape Lighting Installation</label>
+                                        <label for="contact-label-service-136559" class="ml-3 text-sm font-medium text-gray-700">Landscape Lighting Installation</label>
                                     </div>
                                 
                             </div>
